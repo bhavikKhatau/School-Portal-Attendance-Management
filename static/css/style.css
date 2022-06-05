@@ -1,0 +1,199 @@
+/*Index*/
+.first{
+	height:95.5vh;
+	background-image:linear-gradient(to bottom right,#8000ff,#4000ff,#00bfff,#00ffff);
+}
+h1{
+	text-align:center;
+	color:#ffffff;
+}
+a{
+	text-decoration:none;
+	font-size:22px;
+	color:#000000;
+}
+a:hover {
+	color:#ffffff;
+}
+.features figure img{
+	border:5px solid;
+	box-shadow:#000000 10px 10px 10px;
+	border-radius:20px;
+	padding:30px;
+	width:175px;
+	height:175px;
+	background:#bf4040;
+}
+.features figure figcaption{
+	padding-top:7px;
+	text-align:center;
+	font-weight:bold;
+}
+
+
+/*Forms*/
+.form{
+	height:86.6vh;
+	background-image:linear-gradient(to bottom right,#8000ff,#4000ff,#00bfff,#00ffff);	
+}
+form{
+	border:5px solid #000000;
+	border-radius:20px;
+	margin:auto;
+	margin-top:80px;
+	align-items:center;
+	justify-content:center;
+	max-width:300px;
+	padding:15px;
+}
+form h1{
+	color:#ffffff;
+}
+label{
+	font-weight:bold;
+	font-size:15px;
+	color:#ffffff;
+}
+span{
+	font-weight:bold;
+	font-size:20px;
+	color:#ffffff;
+}
+input:invalid + span:after{
+	content:"❌";
+	padding-left:5px;
+	font-size:20px;
+}
+input:valid + span:after{
+	content:"✔️";
+	padding-left:5px;
+	font-size:20px;
+}
+.text{
+	display:block;
+	font-size:15px;
+	border-radius:10px;
+	font-weight:bold;
+	width:100%;
+}
+.button{
+	border:solid #000000;
+	border-radius:50px;
+	width:49%;
+	font-weight:bold;
+	background-image:linear-gradient(to bottom right,#8000ff 0%,#4000ff 10%,#00bfff 50%,#00ffff 70%);
+	font-size:20px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button{
+	-webkit-appearance:none;
+	margin:0px;
+}
+
+
+/*Submit*/
+.submit{
+	height:60.6vh;
+	background-image:linear-gradient(to bottom right,#8000ff,#4000ff,#00bfff,#00ffff);
+}
+p{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-top:215px;
+	font-weight:bold;
+	font-size:23.5px;
+	color:#ffffff;
+}
+/*X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap*/
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+	.features{
+		display:block;
+		max-width:576px;
+		margin:auto;
+		align-items:center;
+	}
+	p{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		margin-top:124px;
+		font-weight:bold;
+		font-size:39px;
+		color:#ffffff;
+	}
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	.features{
+		display:block;
+		max-width:768px;
+		justify-content:center;
+	}
+	p{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		margin-top:395px;
+		font-weight:bold;
+		font-size:50px;
+		color:#ffffff;
+	}
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	.features{
+		display:flex;
+		max-width:800px;
+		margin:auto;
+		justify-content:center;
+	}
+	p{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		margin-top:154px;
+		font-weight:bold;
+		font-size:60px;
+		color:#ffffff;
+	}
+}
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.features{
+		display:flex;
+		max-width:800px;
+		margin:auto;
+		justify-content:center;
+	}
+	p{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		margin:250px;
+		font-weight:bold;
+		font-size:50px;
+		color:#ffffff;
+	}
+}
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	.features{
+		display:flex;
+		max-width:800px;
+		margin:auto;
+		justify-content:center;
+	}
+	p{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		margin:250px;
+		font-weight:bold;
+		font-size:70px;
+		color:#ffffff;
+	}
+}
